@@ -12,6 +12,19 @@ h1,h2,h3{font-family:'Montserrat',sans-serif;font-weight:800} h2{border-left:6px
 .meta{font-size:.9rem;opacity:.85} .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#FFF3B0;border:1px solid var(--yellow);font-size:.8rem;margin-right:6px}
 a.btn{display:inline-block;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:999px;border:2px solid var(--gray)}
 header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--shadow)} header .inner{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+
+a.btn {
+  background: var(--yellow);
+  color: var(--gray);
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 2px solid var(--gray);
+  font-weight: 700;
+}
+a.btn:hover { background: #ffeb7a; }
+
+
 </style></head><body>
 <header><div class="container inner"><a href="index.html" style="text-decoration:none;color:inherit">← Back to Portfolio</a><strong>外部発表｜事例一覧</strong></div></header>
 <main>
@@ -28,7 +41,7 @@ header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--shado
   <!-- ▼ PDFを埋め込み表示 -->
   <div class="pdf-viewer">
     <iframe 
-      src="PBL発表（初任権） copy.pdf"
+      src="image/PBL発表（初任権） copy.pdf"
       width="100%"
       height="400"
       style="border:1px solid #ccc; border-radius:8px;"
@@ -47,6 +60,16 @@ header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--shado
       <p class="meta">継続発信｜note</p>
       <p>小さな改善と生徒の変化を継続公開。共同学習の輪を広げる。</p>
       <p><span class="tag">note</span><span class="tag">Reflection</span></p>
+
+        <!-- ▼ noteへのリンクを追加 -->
+  <p style="margin-top: 10px;">
+    <a href="https://note.com/yellowenvelope" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="btn">
+       noteページを開く
+    </a>
+  </p>
     </article>
   </div>
 </div></section>
